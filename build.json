@@ -1,0 +1,8 @@
+{
+     "android": {
+         "release": {
+             "keystore": "yourkey.keystore",
+             "alias": "aliaskey"
+         }
+     }
+ }

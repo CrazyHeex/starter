@@ -4,3 +4,6 @@
 node_modules/
 platforms/
 plugins/
+.tmp/
+bower_components/
+.idea/
