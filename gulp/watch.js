@@ -19,6 +19,7 @@ gulp.task ('watch', ['inject'], function () {
 
     gulp.watch ([
         path.join ('scss/**/*.css'),
+        path.join ('scss/**/*.scss'),
         path.join (conf.paths.src, '/app/**/*.css'),
         path.join (conf.paths.src, '/app/**/*.scss')
     ], function (event) {

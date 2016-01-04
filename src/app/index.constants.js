@@ -1,8 +1,16 @@
-/* global malarkey:false, moment:false */
-(function() {
+(function () {
   'use strict';
-
   angular
-    .module('starter');
+    .module('starter')
+    .constant('AppConfig', AppConfig());
 
+  function AppConfig() {
+    return {
+      routes: {
+        home: 'photogram.home',
+        login: 'intro'
+      },
+      color: '#00796B'
+    };
+  }
 })();

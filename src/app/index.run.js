@@ -1,28 +1,33 @@
 (function () {
     'use strict';
 
+  var cordova = window.cordova;
+
     angular
         .module ('starter')
-        .run (runBlock);
+        .run (runIonic);
 
-    /** @ngInject */
-    function runBlock ($ionicPlatform, $log) {
 
-        $log.debug ('runBlock end');
-        $ionicPlatform.ready (function () {
-            // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-            // for form inputs)
-            if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
-                cordova.plugins.Keyboard.hideKeyboardAccessoryBar (true);
-                cordova.plugins.Keyboard.disableScroll (true);
+  function runIonic($ionicPlatform, $log, AppConfig, $cordovaStatusbar, $timeout, $cordovaSplashscreen) {
 
-            }
-            if (window.StatusBar) {
-                // org.apache.cordova.statusbar required
-                StatusBar.styleDefault ();
-            }
-        });
+    $log.debug ('runBlock end');
 
-    }
+    $ionicPlatform.ready(function () {
 
+      if (cordova && cordova.plugins && cordova.plugins.Keyboard) {
+        cordova.plugins.Keyboard.hideKeyboardAccessoryBar(false);
+      }
+
+      if (cordova) {
+        $timeout(function () {
+          $cordovaSplashscreen.hide();
+          $cordovaStatusbar.overlaysWebView(true);
+          $cordovaStatusbar.style(1);
+          $cordovaStatusbar.styleHex(AppConfig.color);
+          $cordovaStatusbar.show();
+        }, 100);
+      }
+
+    });
+  }
 }) ();

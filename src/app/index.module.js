@@ -5,13 +5,12 @@
         .module ('starter', [
            'ionic',
            'formlyIonic',
-           'pascalprecht.translate',
            'angularMoment',
            'ngCordova',
            'app.translate',
+           'pascalprecht.translate',
            'gettext',
-           'app.chat',
-
+           'app.chat'
         ]);
 
 }) ();
