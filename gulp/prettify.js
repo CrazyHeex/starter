@@ -1,5 +1,4 @@
 'use strict';
-var path     = require('path');
 var gulp     = require('gulp');
 var prettify = require('gulp-jsbeautifier');
 var conf = require ('./conf');
