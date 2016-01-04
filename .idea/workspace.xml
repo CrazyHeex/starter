@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c58556b-ea9b-4d94-bfba-552f2a384a0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/ionicons.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/scripts/app-ffd78e1d24.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/styles/app-8445bab615.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/watch.js" afterPath="$PROJECT_DIR$/gulp/watch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_animate.scss" afterPath="$PROJECT_DIR$/scss/_animate.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/material/_material.scss" afterPath="$PROJECT_DIR$/scss/material/_material.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/material/themes/blue.scss" afterPath="$PROJECT_DIR$/scss/material/themes/blue.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.config.js" afterPath="$PROJECT_DIR$/src/app/index.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.constants.js" afterPath="$PROJECT_DIR$/src/app/index.constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.module.js" afterPath="$PROJECT_DIR$/src/app/index.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.run.js" afterPath="$PROJECT_DIR$/src/app/index.run.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/main/chat/chat.routes.js" afterPath="$PROJECT_DIR$/src/app/main/chat/chat.routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
     </list>
     <ignored path="Starter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,15 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tab-dash.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tab-dash.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/main/chat/templates/tab-dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.055214725">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state vertical-scroll-proportion="-9.692307">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33128834">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,7 +68,6 @@
         <option value="$PROJECT_DIR$/src/app/main/chat/controllers/AccountCtrl.js" />
         <option value="$PROJECT_DIR$/src/app/main/chat/controllers/ChatsCtrl.js" />
         <option value="$PROJECT_DIR$/gulp/inject.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/gulp/scripts.js" />
         <option value="$PROJECT_DIR$/src/app/main/chat/controllers/ChatDetailCtrl.js" />
         <option value="$PROJECT_DIR$/src/app/main/chat/templates/chat-detail.html" />
@@ -106,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/app/main/chat/templates/tab-dash.html" />
         <option value="$PROJECT_DIR$/src/app/main/user/user.module.js" />
         <option value="$PROJECT_DIR$/src/app/index.module.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
       </list>
     </option>
   </component>
@@ -395,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7894737">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulp/inject.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1493776">
@@ -646,12 +633,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/main/chat/templates/tab-dash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055214725">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state vertical-scroll-proportion="-9.692307">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33128834">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
