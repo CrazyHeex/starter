@@ -1,0 +1,38 @@
+<ion-modal-view class="view-login" view-title="{{ 'Enter' | translate }}">
+
+    <ion-header-bar class="bar-dark">
+        <div class="title">{{ 'Register' | translate }}</div>
+        <button class="button button-clear button-icon ion-ios-close-empty" ng-click="closeModal()"></button>
+    </ion-header-bar>
+
+    <ion-content class="padding">
+
+        <div class="step1">
+            <formly-form model="form" fields="formFields" form="rForm">
+
+                <button class="button button-block button-positive " type="button" ng-click="submitLogin(rForm, form)" translate>Enter
+                </button>
+
+            </formly-form>
+        </div>
+
+
+        <div class="step2">
+            <button class="button button-block button-facebook"><i class="icon ion-social-facebook"></i>
+                <span translate>Login with Facebook</span>
+            </button>
+        </div>
+
+        <div class="step3">
+            <button recovery-pass class="button button-right button-block button-clear">
+                <span translate>Forgot your password?</span>
+            </button>
+        </div>
+
+
+
+
+        </div>
+
+    </ion-content>
+</ion-modal-view>

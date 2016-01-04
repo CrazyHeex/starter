@@ -1,16 +1,16 @@
 (function () {
-    'use strict';
+  'use strict';
 
   var cordova = window.cordova;
 
-    angular
-        .module ('starter')
-        .run (runIonic);
+  angular
+    .module('starter')
+    .run(runIonic);
 
 
   function runIonic($ionicPlatform, $log, AppConfig, $cordovaStatusbar, $timeout, $cordovaSplashscreen) {
 
-    $log.debug ('runBlock end');
+    $log.debug('runBlock end');
 
     $ionicPlatform.ready(function () {
 
@@ -30,4 +30,4 @@
 
     });
   }
-}) ();
+})();

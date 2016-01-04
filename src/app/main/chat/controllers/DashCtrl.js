@@ -8,6 +8,6 @@
  * @requires $scope
  * */
 angular.module('app.chat')
-    .controller('DashCtrl', function($scope){
+  .controller('DashCtrl', function ($scope) {
 
-});
+  });

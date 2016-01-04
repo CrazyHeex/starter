@@ -1,16 +1,17 @@
 (function () {
-    'use strict';
+  'use strict';
 
-    angular
-        .module ('starter', [
-           'ionic',
-           'formlyIonic',
-           'angularMoment',
-           'ngCordova',
-           'app.translate',
-           'pascalprecht.translate',
-           'gettext',
-           'app.chat'
-        ]);
+  angular
+    .module('starter', [
+      'ionic',
+      'formlyIonic',
+      'angularMoment',
+      'ngCordova',
+      'pascalprecht.translate',
+      'ionic.components', // folder components
+      'app.intro',
+      'app.user',
+      'app.chat'
+    ]);
 
-}) ();
+})();

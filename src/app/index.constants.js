@@ -7,8 +7,8 @@
   function AppConfig() {
     return {
       routes: {
-        home: 'photogram.home',
-        login: 'intro'
+        home: 'tab.dash',
+        login: 'register'
       },
       color: '#00796B'
     };

@@ -1,7 +1,7 @@
-describe('Controller: app.chat.ChatDetailCtrl', function () {
+describe('Controller: app.intro.IntroCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('app.chat'));
+  beforeEach(module('app.intro'));
 
   var ctrl,
     scope;
@@ -9,7 +9,7 @@ describe('Controller: app.chat.ChatDetailCtrl', function () {
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    ctrl = $controller('ChatDetailCtrl', {
+    ctrl = $controller('IntroCtrl', {
       $scope: scope
     });
   }));

@@ -1,0 +1,34 @@
+<ion-view view-title="{{ 'Register' | translate }}" can-swipe-back="false">
+
+    <ion-content padding="true">
+
+        <div class="text-center padding step1">
+            <img src="img/ionic.png" alt="">
+        </div>
+
+        <div class="step1">
+            <formly-form model="vm.form" fields="vm.formFields" form="vm.rForm">
+
+                <button class="button button-block button-positive" ng-click="vm.submitRegister(vm.rForm, vm.form)" translate>
+                    Register
+                </button>
+
+            </formly-form>
+        </div>
+
+
+        <div class="step2">
+            <button class="button button-block button-positive" login-modal>Login</button>
+            <button class="button button-block button-facebook" ng-click="vm.submitRegister(vm.rForm, vm.form)"><i class="icon ion-social-facebook"></i>
+                <span translate>Register with Facebook</span>
+            </button>
+        </div>
+
+        <div class="padding step3">
+            <p class="text-center">
+                <span translate>When creating your account, you agree to our</span> <b open-terms translate>Terms and
+        Conditions</b></p>
+        </div>
+
+    </ion-content>
+</ion-view>

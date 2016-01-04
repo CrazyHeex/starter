@@ -12,7 +12,7 @@ gulp.task('prettify', [
 gulp.task('prettify:js:app', function () {
     gulp.src(conf.paths.src +'/app/**/*.js')
         .pipe(prettify({config: ".jsbeautifyrc"}))
-        .pipe(gulp.dest(conf.paths.src + '/js'));
+        .pipe(gulp.dest(conf.paths.src + '/app'));
 });
 
 
@@ -28,5 +28,5 @@ gulp.task('prettify:html:app', function () {
             preserveNewlines   : true,
             wrapLineLength     : 0
         }))
-        .pipe(gulp.dest(conf.paths.src + '/js'));
+        .pipe(gulp.dest(conf.paths.src + '/app'));
 });
